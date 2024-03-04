@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Overview from './overview/overview';
+import Car from './car/car';
+import End from './footer/end';
+import Model from './modelcar/model';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Overview />
+    <Model />
+    <Car />
+    <End />
   </React.StrictMode>
 );
 
